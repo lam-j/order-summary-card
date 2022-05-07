@@ -1,0 +1,119 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-color: hsl(225, 100%, 94%);
+    color: hsl(224, 23%, 55%);
+    font-size: 15px;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.order-summary-background {
+    width: 100%;
+}
+
+
+.order-summary {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 20px 20px hsl(225, 100%, 89%);;
+    height: 620px;
+    width: 400px;
+    text-align: center;
+}
+.order-summary img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+
+.order-summary-text {
+    line-height: 24px;
+    margin: auto;
+    margin-top: 25px;
+    width: 70%;
+}
+.order-summary-text h2 {
+    color: hsl(223, 47%, 23%);
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+
+.order-summary-plan {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    margin: auto;
+    width: 80%;
+}
+.order-summary-plan div {
+    display: flex;
+    margin: auto;
+}
+.order-summary-plan img {
+    height: 45px;
+    width: 45px;
+    position: relative;
+    right: 15px;
+    top: 15px;
+}
+.order-summary-plan p {
+    line-height: 1.5rem;
+}
+.order-summary-plan p strong {
+    color: hsl(223, 47%, 23%);
+}
+.order-summary-plan button {
+    background-color: transparent;
+    color: hsl(245, 75%, 52%);
+    border-style: none;
+    text-decoration: underline;
+}
+.order-summary-plan button:hover {
+    opacity: 75%;
+    text-decoration: none;
+}
+
+
+.order-summary-buttons {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 30px;
+    width: 85%;
+}
+.order-summary-buttons button {
+    font-family: 'Red Hat Display', sans-serif;
+    border-radius: 10px;
+    border-style: none;
+}
+.order-summary-buttons h4 {
+    padding: 0;
+    margin: 0;
+}
+button.payment {
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0 15px 15px hsl(245, 75%, 90%);
+    color: white;
+    padding: 15px;
+}
+button.payment:hover {
+    opacity: 75%;
+}
+button.cancel {
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+    margin-top: 30px;
+}
+button.cancel:hover {
+    color: hsl(223, 47%, 23%);
+}
